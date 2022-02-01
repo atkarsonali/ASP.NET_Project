@@ -4,6 +4,6 @@ describe('test case',()=>{
     })
     it('verify test',()=>{
         cy.get('.display-4').should('be.visible')
-        cy.get('.display-4').should('have.text','Welcome')
+        cy.get('.display-4').should('have.text','Welcome to')
     })
 })
